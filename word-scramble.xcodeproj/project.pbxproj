@@ -13,6 +13,7 @@
 		C6B03F7423EEC19400B39E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B03F7223EEC19400B39E7D /* Main.storyboard */; };
 		C6B03F7623EEC19600B39E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B03F7523EEC19600B39E7D /* Assets.xcassets */; };
 		C6B03F7923EEC19600B39E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B03F7723EEC19600B39E7D /* LaunchScreen.storyboard */; };
+		C6B03F8323EECC9C00B39E7D /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = C6B03F8223EECC9C00B39E7D /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C6B03F7523EEC19600B39E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6B03F7823EEC19600B39E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6B03F7A23EEC19600B39E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6B03F8223EECC9C00B39E7D /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				C6B03F7223EEC19400B39E7D /* Main.storyboard */,
 				C6B03F7523EEC19600B39E7D /* Assets.xcassets */,
 				C6B03F7723EEC19600B39E7D /* LaunchScreen.storyboard */,
+				C6B03F8223EECC9C00B39E7D /* start.txt */,
 				C6B03F7A23EEC19600B39E7D /* Info.plist */,
 			);
 			path = "word-scramble";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6B03F7923EEC19600B39E7D /* LaunchScreen.storyboard in Resources */,
+				C6B03F8323EECC9C00B39E7D /* start.txt in Resources */,
 				C6B03F7623EEC19600B39E7D /* Assets.xcassets in Resources */,
 				C6B03F7423EEC19400B39E7D /* Main.storyboard in Resources */,
 			);
