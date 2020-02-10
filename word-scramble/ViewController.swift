@@ -64,6 +64,10 @@ class ViewController: UITableViewController {
     private func submit(_ answer: String) {
         let lowerAnswer = answer.lowercased()
         
+        if lowerAnswer.elementsEqual(title!) {
+            showErrorMessage(errorTitle: "Word is start word", errorMessage: "You can't use the word given")
+        }
+    
         if isPossible(word: lowerAnswer) {
             if isOriginal(word: lowerAnswer) {
                 if isReal(word: lowerAnswer) {
