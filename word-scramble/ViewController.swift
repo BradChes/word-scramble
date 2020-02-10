@@ -66,6 +66,7 @@ class ViewController: UITableViewController {
         
         if lowerAnswer.elementsEqual(title!) {
             showErrorMessage(errorTitle: "Word is start word", errorMessage: "You can't use the word given")
+            return
         }
     
         if isPossible(word: lowerAnswer) {
