@@ -74,7 +74,7 @@ class ViewController: UITableViewController {
                     
                     return
                 } else {
-                    showErrorMessage(errorTitle: "Word not recognized", errorMessage: "Word not recognized")
+                    showErrorMessage(errorTitle: "Word not recognized", errorMessage: "You can't just make up words")
                 }
             } else {
                 showErrorMessage(errorTitle: "Word already used", errorMessage: "Be more original")
